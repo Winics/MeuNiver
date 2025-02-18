@@ -12,6 +12,7 @@ body {
 }
 
 div {
+    max-height: 100vh;
     max-width: 640px;
     display: block;
 
@@ -41,6 +42,6 @@ div {
 
     @media (max-width) {
         img {
-            width: 620px;
+            width: 100%;
         }
     }
